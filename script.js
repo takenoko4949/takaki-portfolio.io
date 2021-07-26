@@ -1,6 +1,6 @@
 
 let go = function(e) {
-   document.getElementById("front").style.backgroundImage = 'url("/Users/x20033xx/Documents/GitHub/takaki-portfolio.io/img/france-3814569_1920.jpg")';
+   document.getElementById("front").style.backgroundImage = 'url("img/france-3814569_1920.jpg")';
    document.getElementById("work").textContent = "gallary"
    document.getElementById("profile").textContent = "profile"
    document.getElementById("go").textContent = ""

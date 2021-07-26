@@ -1,0 +1,31 @@
+*{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: black;
+    list-style: none;
+}
+
+section{
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1rem;
+    padding: 0 17rem;
+    margin: 1rem;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+li{
+    font-size: 3rem;
+}
+
+img{
+    width: 9rem;
+    height: 10rem;
+}

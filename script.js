@@ -1,15 +1,17 @@
 
-let go = function(e) {
-   document.getElementById("front").style.backgroundImage = 'url("/img/france-3814569_1920.jpg")';
-   document.getElementById("work").textContent = "gallary"
-   document.getElementById("profile").textContent = "profile"
-   document.getElementById("go").textContent = ""
-   document.getElementById("text0").textContent = ""
-   document.getElementById("work").setAttribute('href', 'work.html');
-   document.getElementById("profile").setAttribute('href', 'profile.html');
+function scroll1() {
+    window.scrollTo(0, 0);
 }
 
-document.getElementById("go").addEventListener('click', go);
-document.getElementById("text0").addEventListener('click', go);
-document.getElementById("go").addEventListener('scroll', go);
-document.getElementById("text0").addEventListener('scroll', go);
+function scroll2() {
+    window.scrollTo(0, 770);
+}
+
+function scroll3() {
+    window.scrollTo(0, 10000);
+}
+
+
+document.getElementById("vb").addEventListener("click", scroll1);
+document.getElementById("pb").addEventListener("click", scroll2);
+document.getElementById("ob").addEventListener("click", scroll3);
